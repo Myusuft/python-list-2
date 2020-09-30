@@ -1,0 +1,5 @@
+x = [2.5, 6.5]
+list1 = list(map(float, x))
+
+hasil = 0.5 * x[0] * x[1]
+print(hasil)
