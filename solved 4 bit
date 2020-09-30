@@ -1,0 +1,36 @@
+#no.1
+S = "1001"
+S_new = str(S)
+
+a1 = S_new[0]
+a2 = S_new[1]
+a3 = S_new[2]
+a4 = S_new[3]
+
+a1 = int(a1) * 1
+a2 = int(a2) * 2
+a3 = int(a3) * 4
+a4 = int(a4) * 8
+hasil = a1 + a2 + a3 + a4
+print(hasil)
+
+#no.2
+pi = 3.14
+x = [10, 5.7]
+list1 = list(map(float, x))
+
+volume = 1 / 3 * pi * x[0] ** 2 * x[1]
+print(volume)
+
+#no.3
+x1 = [20, 3.5]
+list1 = list(map(float, x1))
+x2 = [19, 3.45]
+list1 = list(map(float, x2))
+x3 = [17, 3.25]
+list1 = list(map(float, x3))
+
+rata2_umur = (x1[0] + x2[0] + x3[0]) / 3
+rata2_IPK = (x1[1] + x2[1] + x3[1]) / 3
+print(rata2_umur)
+print(rata2_IPK)
